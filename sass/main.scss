@@ -1,0 +1,15 @@
+$primary : purple;
+$warning : brown; 
+$modal-backdrop-bg : lightgreen;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$neilarmstrong-theme-colors: (
+
+    "cool" : maroon,
+    "dust" : cyan);
+
+$theme-colors : map-merge($neilarmstrong-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
